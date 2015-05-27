@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 Place.delete_all
 
-Place.create! name: "Lion's Head", description: "An awesome place for hiking"
-Place.create! name: "Table Mountain", description: "Taller "
+Place.create! name: "Lion's Head", description: "An awesome place for hiking", address: "123 Kloof"
+Place.create! name: "Table Mountain", description: "Taller ", address: "456 Bree"
 
