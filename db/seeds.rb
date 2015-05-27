@@ -9,4 +9,5 @@ Place.delete_all
 
 Place.create! name: "Lion's Head", description: "An awesome place for hiking", address: "123 Kloof"
 Place.create! name: "Table Mountain", description: "Taller ", address: "456 Bree"
+Place.create! name: "Knead", description: "Great Breakfast!", address: "181 Kloof"
 

@@ -1,0 +1,11 @@
+<h1>Hello! Welcome to Cape Town!</h1>
+	
+<% @places.each do |place| %>
+	
+	<div>
+		<h2><%= place.name %></h2>
+		<p> <%= place.description %></p>
+	</div>
+
+	
+	<% end %>
